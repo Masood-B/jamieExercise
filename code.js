@@ -1,63 +1,3 @@
-// localStorage 
-
-// localStorage.setItem("Student","Jason");
-// console.log(localStorage.getItem("Student"));
-// document.write(localStorage.getItem("Student"));
-
-// let array = [
-//     {
-//         key: "value",
-//     },
-//     {
-//         key: "value",
-//     },
-//     {
-//         key: "value",
-//     },
-//     {
-//         key: "value",
-//     }   
-// ]
-
-// let student = {
-//     name: "James",
-//     age: 21
-// }
-
-// localStorage.setItem("Key", JSON.stringify(student));
-// let localStudent = JSON.parse(localStorage.getItem("key"));
-
-// let studentObj = JSON.stringify(student);
-// console.log(typeof studentObj);
-
-// localStorage.setItem("student", studentObj)
-// let toJSON = JSON.parse(studentObj)
-
-
-
-// fetch("products.json")
-// .then(function(response){
-//     return response.json();
-// })
-
-// then(function(data){
-//     localStorage.setItem("products", JSON.stringify(data));
-//     if(!localStorage.getItem("cart")){
-//         localStorage.setItem("cart", []);
-//     }
-// })
-
-// JSON Data 
-
-// [
-//     {
-//         "name" : "Batman",
-//         "price" : 299,
-//         "quantity": 7,
-//         "image" : ""
-//     }
-// ]
-
 // Create an array of Objects (At least 3 Objects). Each object should have a URL Link to an image.
 // Set your array in localStorage.
 // Get your array from localStorage and store it in a variable called "Information"
@@ -101,4 +41,3 @@ let route = document.querySelector("#routes")
     })
 
     console.log(localStorage.getItem("pokeDex"));
-document.write(localStorage.getItem("pokeDex"));
